@@ -11,8 +11,6 @@ num = int.Parse(Console.ReadLine());
 }
 while ((num > 999) || (num<100));
 
-// :10  = 
-
 void SecOfNum (int num)
 {
     int num23 = num % 100;
