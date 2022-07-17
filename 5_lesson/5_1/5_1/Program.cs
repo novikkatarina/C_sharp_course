@@ -9,6 +9,7 @@ int[] ArrayFill(int size)
     {
         array[i] = new Random().Next(-9, 10);
     }
+    return array;
 }
 
 void ArrayPrint(int[] array)
